@@ -39,7 +39,8 @@ if(isset($_POST['submit'])){
     {
         $arr_student=[$MaSV,$Name,$Gioi_tinh,$Que_quan,$Nam_sinh,$Nganh_hoc];
         $_SESSION['students'][]=$arr_student;
-        header("location:Show_student.php");
+        header("location:link1.php");
+        
     }
     else{
         echo"<script> alert('Vui lòng điền đầy đủ thông tin ')</script>";

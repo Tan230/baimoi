@@ -13,7 +13,7 @@ function Show_table()
               <td><?php echo $_SESSION['students'][$i][3] ?></td>
               <td><?php echo $_SESSION['students'][$i][4] ?></td>
               <td><?php echo $_SESSION['students'][$i][5] ?></td>
-              <td> <a href="Show_student.php?delete=<?php echo ($i) ?>">Xóa</a><a href="sua.php?update=<?php echo ($i) ?>">Sửa</td>
+              <td> <a href="link2.php?delete=<?php echo ($i) ?>">Xóa</a><a href="link3.php?update=<?php echo ($i) ?>">Sửa</td>
             </tr>
 <?php 
         }
@@ -35,5 +35,5 @@ function Show_table()
     <th>Hành Động</th>
  </tr>
  <?php Show_table(); ?>
- <p?><a href="push.php">Add</a></p>
+ <p?><a href="link2.php">Add</a></p>
 </table>

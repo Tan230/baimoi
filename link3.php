@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
    $Nganh_hoc=$_POST['nhoc'];
    $arr_student=[$MaSV,$Name,$Gioi_tinh,$Que_quan,$Nam_sinh,$Nganh_hoc];
    $_SESSION['students'][$_GET['update']]=$arr_student;
-   header("location:Show_student.php");
+   header("location:link3.php");
 }
 ?>
 <form action="" method="post">
